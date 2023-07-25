@@ -1,0 +1,33 @@
+.description {
+  h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+.resolution-disp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  li img {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    h2 {
+      font-size: 2.4rem;
+      line-height: 2.5rem;
+    }
+  }
+}

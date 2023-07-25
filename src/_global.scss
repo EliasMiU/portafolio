@@ -1,0 +1,25 @@
+html, body {
+  font-family: 'Dosis';
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.section-title {
+  font-weight: 800;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 4.3rem;
+    margin-bottom: 5rem;
+  }
+}

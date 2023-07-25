@@ -1,0 +1,43 @@
+.hero-pokedex {
+  padding: 10rem 0 3rem 0;
+  background-image: linear-gradient(160deg, rgb(100, 0, 175) 35%, rgba(48, 199, 255, 0.9) 100%)
+}
+
+
+/*TARJETAS DE LOS POKEMON*/
+.section-cards {
+  padding: 3rem 0;
+
+  .containt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.poke-card {
+  background: rgb(41,207,255);
+  background: linear-gradient(170deg, rgba(41,207,255,1) 0%, rgba(0,99,255,0.8) 100%);
+  width: 19%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0.5rem;
+  min-
+
+  .pk-header {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: monospace;
+  }
+
+  .pk-body {
+    height: 6rem;
+  }
+
+  .pk-footer {
+    padding: 2rem 0 0.5rem 0;
+  }
+}

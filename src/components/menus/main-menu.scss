@@ -1,0 +1,20 @@
+.main-menu {
+  max-width: fit-content;
+  opacity: 0;
+
+  a {
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+    padding: 0.3rem 3rem;
+    border-radius: 0 1rem;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+}
+
+.header.active {
+  .main-menu {
+    opacity: 1;
+  }
+}

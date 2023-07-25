@@ -1,0 +1,26 @@
+.contact-list {
+  display: flex;
+  flex-direction: row;
+
+  li{
+    margin-right: 0.5rem;
+
+    img {
+        margin-right: 0.5rem;
+        max-width: 2.5rem;
+      }
+  } 
+}
+
+@media screen and (min-width: 992px) {
+  .contact-list {
+
+    li {
+      margin-right: 1rem;
+
+      img {
+        max-width: 3.5rem;
+      }
+    }
+  }
+}
