@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom';
 
 export default class Hero extends Component {   
     render(){
-        const { mostrar } = this.props;
-
         return(
             <section className="hero">
                 <div className="container">
