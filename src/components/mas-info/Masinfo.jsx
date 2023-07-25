@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 
 export default class Masinfo extends Component {
     render(){
-        const {mostrar} = this.props;
         return (<>
-            <header>
+            <header className="header-info">
                 <div className="container nav-empresas">
                     <Link to='/'>Home</Link>
                 </div>

@@ -110,7 +110,6 @@ header .content {
 @media screen and (min-width: 768px) {
   .navbar-brand {
     font-size: 5rem;
-    font-family: fantasy;
     position: relative;
     line-height: 4rem;
     width: 4rem;
@@ -384,10 +383,14 @@ header .content {
     line-height: 2.5rem;
   }
 }
+.header-info {
+  background-color: #000;
+}
+
 .mas-info {
   background-color: rgb(10, 10, 10);
   min-height: 100vh;
-  padding-top: 6rem;
+  padding-top: 7rem;
   padding-bottom: 1rem;
 }
 .mas-info h1 {
