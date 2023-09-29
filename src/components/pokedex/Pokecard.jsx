@@ -25,8 +25,6 @@ class Pokecard extends Component {
 
   };
 
-  
-
   render(){
 
     if(this.state.isLoading){

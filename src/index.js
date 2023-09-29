@@ -6,11 +6,11 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import WebFont from 'webfontloader';
 
-WebFont.load({
+/*WebFont.load({
   google: {
     families: ['Lato:300,400,700', 'sans-serif']
   }
-});
+});*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

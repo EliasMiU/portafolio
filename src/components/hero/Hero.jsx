@@ -25,7 +25,7 @@ export default class Hero extends Component {
                             </div>
 
                             <div className='content-contact'>
-                                <Link to="masinfo" className='btn-mas-info'>Mas sobre mi</Link>
+                                <Link to="experiencia-con-empresas" className='btn-mas-info'>Mas sobre mi</Link>
                                 <Contact />                             
                             </div>
                         </div>
