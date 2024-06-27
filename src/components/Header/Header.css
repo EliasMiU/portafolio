@@ -1,0 +1,16 @@
+.pf-header {
+  position: absolute;
+  z-index: 10;
+  min-width: 100%;
+}
+.pf-header .navbar-brand {
+  color: #fff;
+}
+.pf-header .nav-link {
+  color: #fff;
+}
+
+.logo {
+  width: 3rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=Header.css.map */

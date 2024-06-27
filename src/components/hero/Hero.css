@@ -1,0 +1,229 @@
+/* Hero */
+.hero {
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+}
+.hero .container {
+  position: relative;
+  z-index: 10;
+}
+.hero::before {
+  content: "";
+  width: 85%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(18, 24, 24);
+  position: absolute;
+  border-radius: 0 0 25%;
+  box-shadow: 0 0 1rem rgba(10, 10, 10, 0.8);
+}
+.hero::after {
+  content: "";
+  width: 45%;
+  height: 80%;
+  top: 0;
+  right: 0;
+  background: rgb(255, 11, 233);
+  background: linear-gradient(315deg, rgb(255, 11, 233) 0%, rgb(0, 212, 255) 100%);
+  position: absolute;
+  border-radius: 0 0 0 20%;
+  box-shadow: 0 0 1rem rgba(10, 10, 10, 0.8);
+}
+.hero .super-menu {
+  width: 70%;
+  height: 80%;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(160deg, rgb(100, 0, 175) 35%, rgba(48, 199, 255, 0.9) 100%);
+  position: absolute;
+  border-radius: 0 0 0 10%;
+  transition: all 0.5s ease;
+  box-shadow: 0 0.3rem 1.5rem rgb(0, 0, 0);
+}
+.hero .super-menu .item-1 {
+  background-color: rgba(52, 152, 219, 0.5);
+  width: 5rem;
+  height: 6rem;
+  border-radius: 0 0 8rem 8rem;
+  box-shadow: 0 0 0.8rem rgba(10, 10, 10, 0.7);
+  position: relative;
+  left: 1rem;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+.hero .super-menu .item-1 img {
+  max-width: 4rem;
+  border-radius: 50%;
+}
+.hero .super-menu .item-2 {
+  display: none;
+}
+.hero .super-menu.active {
+  width: 100%;
+  height: 100vh;
+  border-radius: 0 0 0 10%;
+  z-index: 40;
+  position: fixed;
+}
+
+.titulo-hero {
+  font-family: system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: rgb(20, 0, 230);
+  text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.6);
+  margin-left: -0.2rem;
+}
+.titulo-hero span {
+  display: block;
+  color: #fff;
+}
+
+.greeting-hero {
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: rgb(48, 199, 255);
+  margin-bottom: 0.3rem;
+}
+
+.intro-hero {
+  font-family: system-ui;
+  font-size: 1.1rem;
+  color: #999;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.btn-contact {
+  font-family: unset;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: rgb(100, 0, 175);
+  border-radius: 0 3rem 3rem 0;
+  color: #fff;
+}
+
+.content-contact {
+  display: flex;
+  align-items: center;
+}
+
+.btn-mas-info {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: rgb(160, 0, 230);
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border: 0.2rem solid rgb(160, 0, 230);
+  border-radius: 0.3rem;
+  margin-right: 1rem;
+}
+.btn-mas-info:hover {
+  color: beige;
+}
+
+@media screen and (min-width: 768px) {
+  /* Hero */
+  .hero {
+    padding-bottom: 4rem;
+  }
+  .hero .container {
+    position: relative;
+    z-index: 10;
+  }
+  .hero::before {
+    content: "";
+    width: 70%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(18, 24, 24);
+    position: absolute;
+    border-radius: 0 0 25%;
+    box-shadow: 0 0 1rem rgba(10, 10, 10, 0.8);
+  }
+  .hero .super-menu {
+    width: 47%;
+    height: 80%;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(160deg, rgb(100, 0, 175) 35%, rgba(48, 199, 255, 0.9) 100%);
+    position: absolute;
+    border-radius: 0 0 0 25%;
+    transition: all 0.5s ease;
+  }
+  .hero .super-menu .item-2 {
+    display: block;
+    width: 5rem;
+    height: 11rem;
+    position: absolute;
+    bottom: 0;
+    left: 5rem;
+    border-radius: 8rem 8rem 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -6rem;
+    opacity: 0.95;
+  }
+  .titulo-hero {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    color: rgb(160, 0, 230);
+    margin-bottom: 1rem;
+  }
+  .titulo-hero span {
+    display: block;
+    color: #fff;
+  }
+  .greeting-hero {
+    font-size: 1.5rem;
+    color: rgb(48, 199, 255);
+  }
+  .intro-hero {
+    font-size: 1.1rem;
+    color: #999;
+    margin-bottom: 2rem;
+  }
+  .btn-contact {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 75vh;
+    max-height: 1024px;
+    display: flex;
+    align-items: center;
+  }
+  .hero .super-menu .item-1 {
+    width: 15rem;
+    height: 32rem;
+    left: 3rem;
+    padding: 1rem;
+  }
+  .hero .super-menu .item-1 img {
+    max-width: 13rem;
+  }
+  .hero .super-menu .item-2 {
+    width: 15rem;
+    height: 30rem;
+    left: 16rem;
+  }
+  .titulo-hero {
+    font-size: 8rem;
+    line-height: 6.5rem;
+    margin-left: -0.5rem;
+  }
+  .intro-hero {
+    display: block;
+  }
+}/*# sourceMappingURL=Hero.css.map */
