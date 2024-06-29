@@ -65,6 +65,7 @@ function Proyectos() {
   return(
     <section className="proyectos">
         <div className="container">
+          <h2 className="t-section">{ ' { PROYECTOS }' }</h2>
           <div className="content-p">
             {
               proyectos.map( proyecto => {

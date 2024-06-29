@@ -3,6 +3,15 @@
   flex-wrap: wrap;
 }
 
+h2.t-section {
+  font-family: system-ui;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(245, 233, 245);
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
 .card {
   width: 25%;
   height: 30rem;
@@ -23,9 +32,28 @@
   position: relative;
   z-index: 10;
 }
+.card .card-body .card-title {
+  font-family: system-ui;
+  font-size: 1.5rem;
+  color: rgb(235, 250, 255);
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+}
+.card .card-body .card-text {
+  font-family: system-ui;
+  font-size: 1rem;
+  color: rgb(235, 250, 255);
+}
 .card .card-body .btn {
   position: absolute;
   bottom: 1rem;
+  background-color: rgb(255, 81, 196);
+  border-radius: 0.1rem;
+  border: none;
+  box-shadow: 0rem 0rem 0.4rem rgba(0, 0, 0, 0.8);
+  font-family: system-ui;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .proyectos {
