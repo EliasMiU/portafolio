@@ -1,15 +1,16 @@
+import Header from "./components/Header/Header"
+import Hero from "./components/hero/Hero"
+import Proyectos from "./components/Proyectos/Proyectos"
 import './App.css'
 
-import Header from './components/Header/Header';
-import Hero from './components/hero/Hero';
-import Proyectos from './components/Proyectos/Proyectos';
 
 function App() {
-  return (<>
-    <Header />
-    <Hero />
-    <Proyectos />
-  </>
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Proyectos />
+    </>
   )
 }
 
