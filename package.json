@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://eliasmiu.github.io/portafolio",
+  "homepage": "https://eliasmiu.github.io/portafolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

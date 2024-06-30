@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Sobremi from './components/sobremi/Sobremi.jsx';
-import App from './App.jsx';
+import Root from './components/routes/root.jsx';
+import About from './components/routes/about.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <Root />
   },
   {
     path: "/sobre-mi",
-    element: <Sobremi />
+    element: <About />
   }
 ]);
 
