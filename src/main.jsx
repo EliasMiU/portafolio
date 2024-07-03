@@ -22,7 +22,7 @@ import Sobremi from './components/sobremi/Sobremi.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter basename='/portafolio'>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/sobre-mi' element={<Sobremi />}></Route>
