@@ -1,0 +1,106 @@
+.content-p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2.t-section {
+  font-family: 'PantonRus-Heavy', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: rgba(112, 123, 123);
+}
+
+
+.card {
+  width: 50%;
+  height: 20rem;
+  max-width: 100% !important;
+  border-radius: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  &.custom-0 {
+    background-position: right;
+  }
+
+
+
+  .card-body {
+    position: relative;
+    z-index: 10;
+
+    .card-title {
+      font-family: system-ui;
+      font-size: 1.5rem;
+      color: rgb(235, 250, 255);
+      font-weight: bold;
+      margin-bottom: 1.7rem;
+    }
+
+    .card-text {
+      font-family: system-ui;
+      font-size: 1rem;
+      color: rgb(235, 250, 255);
+
+
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 1rem;
+      background-color: rgba(5, 5, 5, 1);
+      border-radius: 0.3rem;
+      border: none;
+      box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.8);
+      font-family: system-ui;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: ease 0.5s;
+
+      &:hover {
+        transform: translateY(-0.3rem);
+      }
+    }
+  }
+}
+
+.card {
+  max-width: 20rem;
+}
+
+.new-project {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*PROYECTOS VIEJOS*/
+.proyectos {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .new-project {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h2.t-section {
+    font-size: 3rem;
+    padding-top: 2rem;
+  }
+
+  .card {
+    height: 35rem;
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(23, 23, 23);
+}/*# sourceMappingURL=App.css.map */
+
+@font-face {
+  font-family: 'PantonRus-Heavy';
+  src: url('./assets/fonts/panton_rust/PantonRustHeavy-GrSh.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PantonRus-SemiBold';
+  src: url('./assets/fonts/panton_rust/PantonRustScrSmBold-Gr.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TypoSlab';
+  src: url('./assets/fonts/typoslab_irregular/TypoSlab-Irregular.otf') format('embedded-opentype');
+}
+

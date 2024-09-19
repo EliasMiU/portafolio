@@ -1,0 +1,76 @@
+.cuadricula {
+  position: relative;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.cuadricula::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ajusta la altura de la ola */
+  opacity: 0.6;
+}
+.cuadricula .container {
+  position: relative;
+}
+.cuadricula h2 {
+  font-family: "PantonRus-Heavy", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 3.2rem;
+  color: rgb(112, 123, 123);
+  text-shadow: 0.2rem 0.2rem 0.2rem rgb(0, 0, 0);
+}
+.cuadricula .row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.cuadricula .row div h3 {
+  border-top: solid 0.1rem #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 0.5rem;
+}
+.cuadricula .row div p {
+  max-width: 90%;
+}
+
+.cuadricula .dev-m {
+  position: relative;
+}
+.cuadricula .dev-m::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/desarrollo-medida.png");
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.cuadricula img {
+  position: relative;
+}
+.cuadricula .dev-m img {
+  width: 60%;
+}
+.cuadricula .cms img {
+  width: 70%;
+  align-self: end;
+}
+.cuadricula .objetivos img {
+  width: 15rem;
+  align-self: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .cuadricula h2 {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=Cuadricula.css.map */

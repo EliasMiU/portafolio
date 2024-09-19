@@ -1,0 +1,106 @@
+.cuadricula {
+  position: relative;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ajusta la altura de la ola */
+    //background-image: url("../../assets/img/patrones-hoja.png");
+    opacity: 0.6;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  h2 {
+    font-family: 'PantonRus-Heavy', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.2rem;
+    color: rgba(112, 123, 123, 1);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 1);
+  }
+
+  .row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+
+    h3 {
+      border-top: solid 0.1rem #fff;
+      width: fit-content;
+      padding-top: 0.5rem; 
+    }
+
+    p {
+      max-width: 90%;
+    }
+  }
+}
+
+
+.cuadricula .row div:nth-child(4n-2),
+.cuadricula .row div:nth-child(3) {
+    //background: #bc4e9c;  /* fallback for old browsers */
+    //background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    //background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cuadricula .dev-m {
+  position: relative;
+  
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/img/desarrollo-medida.png');
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+}
+
+.cuadricula {
+
+  img {
+    position: relative;
+  }
+
+  .dev-m {
+    img {
+      width: 60%;
+    }
+  }
+
+  .cms {
+    img {
+      width: 70%;
+      align-self: end;
+    }
+  }
+
+  .objetivos {
+    img {
+      width: 15rem;
+      align-self: center;
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cuadricula {
+    h2 {
+      margin-bottom: 2rem;
+    }
+  }
+  
+}

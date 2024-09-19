@@ -1,0 +1,31 @@
+.skill-sect {
+  padding-top: 4rem;
+}
+.skill-sect h2 {
+  font-family: "PantonRus-Heavy", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.list-skill {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.list-skill li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 48%;
+}
+.list-skill li img {
+  width: 3.8rem;
+}
+.list-skill li span {
+  font-family: system-ui;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+}/*# sourceMappingURL=Skill.css.map */
