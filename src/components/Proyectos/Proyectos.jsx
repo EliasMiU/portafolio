@@ -57,7 +57,7 @@ function Proyectos() {
   return(
     <section className="proyectos">
         <div className="container">
-          <h2 className="t-section">PROYECTOS</h2>
+          <h2 className="t-section">PROYECTOS <span className="detalles">+</span></h2>
           <div className="content-p">
             {
               proyectos.map( proyecto => {

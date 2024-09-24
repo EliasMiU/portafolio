@@ -26,8 +26,8 @@ function Cuadricula() {
                     <img src={cms} alt="" className="img-cuadricula" />                        
                     </div>
                     <div className='col-12 col-md-6 order-4 cma'>
-                        <h3>PASIONES DE DISENO</h3>
-                        <p>Con sólida experiencia en WordPress, construyo sitios web atractivos y funcionales. Dominio en la personalización de temas, creación de tipos de contenido personalizados, integración de plugins y optimización para motores de búsqueda. Mis proyectos destacan por su diseño responsivo, velocidad de carga y facilidad de uso.</p>
+                        <h3>Web's CMS</h3>
+                        <p>Experiencia en desarrollo web con frameworks CMS. Dominio en la implementación y personalización de plataformas como WordPress, Drupal y Joomla. Creación de sitios web dinámicos y escalables, optimizados para SEO y UX.</p>
                     </div>
                     
                     <div className='col-12 col-md-6 order-last order-md-5 objetivos'>

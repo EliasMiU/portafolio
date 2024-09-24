@@ -89,6 +89,13 @@ h2.t-section {
   position: relative;
 }
 
+.detalles {
+  cursor: pointer;
+  color: #fff;
+  margin-left: 3rem;
+}
+
+
 @media screen and (min-width: 768px) {
   .new-project {
     padding-top: 2rem;
@@ -103,4 +110,32 @@ h2.t-section {
   .card {
     height: 35rem;
   }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 33%;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    .img-hero {
+      width: 34rem;
+    }
+  }
+
+  .card {
+    width: 24%;
+  }
+
+  .cuadricula {
+    .objetivos {
+      img {
+        width: 30rem;
+      }
+    }
+  }
+  
 }
